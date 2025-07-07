@@ -29,11 +29,14 @@ class GoGreenEnergySensor(CoordinatorEntity, Entity):
     def __init__(self, coordinator):
         super().__init__(coordinator)
         self._attr_name = "GoGreenEnergy Price"
-        self._attr_unit_of_measurement = "Cent/kWh"
+        self._attr_unit_of_measurement = "EUR/kWh"  # Changed unit
 
     @property
     def state(self):
-        return self.coordinator.data.get("price")
+        price_cents = self.coordinator.data.get("price")
+        if price_cents is not None:
+            return round(price_cents / 100, 4)  # Convert to EUR, 4 decimals for kWh prices
+        return None
 
     @property
     def extra_state_attributes(self):
