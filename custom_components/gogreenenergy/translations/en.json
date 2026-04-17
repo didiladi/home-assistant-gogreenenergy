@@ -1,0 +1,23 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "GoGreenEnergy Configuration",
+        "description": "Enter the details for your GoGreenEnergy tracking. The Additional Fee lets you add the GoGreen Handling Fee (e.g. 0.015) and your regional grid costs per kWh to track full energy costs.",
+        "data": {
+          "product_key": "Product Key (e.g. GSFLEX)",
+          "option_plus": "Include 'plus' option",
+          "option_future": "Include 'future' option",
+          "additional_fee_per_kwh": "Additional Fee per kWh (EUR)"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Failed to connect",
+      "unknown": "Unexpected error"
+    },
+    "abort": {
+      "already_configured": "Device is already configured"
+    }
+  }
+}

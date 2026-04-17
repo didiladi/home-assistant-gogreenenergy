@@ -3,6 +3,7 @@
   "name": "GoGreenEnergy Price Sensor",
   "version": "0.1.0",
   "documentation": "https://github.com/didiladi/gogreenenergy_integration",
+  "issue_tracker": "https://github.com/didiladi/gogreenenergy_integration/issues",
   "requirements": [
     "aiohttp",
     "beautifulsoup4"
@@ -11,5 +12,6 @@
   "codeowners": [
     "@didiladi"
   ],
-  "iot_class": "cloud_polling"
+  "iot_class": "cloud_polling",
+  "config_flow": true
 }
