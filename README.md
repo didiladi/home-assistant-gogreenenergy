@@ -23,7 +23,7 @@ This integration is fully compatible with [HACS (Home Assistant Community Store)
 
 1. Open HACS in your Home Assistant instance.
 2. Click on the 3 dots in the top right corner and select **Custom repositories**.
-3. Add the URL to this repository (`https://github.com/didiladi/gogreenenergy_integration`) and select **Integration** as the category.
+3. Add the URL to this repository (`https://github.com/didiladi/home-assistant-gogreenenergy`) and select **Integration** as the category.
 4. Click **Add**.
 5. You should now see "GoGreenEnergy" in your HACS integrations list. Click on it and select **Download**.
 6. Restart Home Assistant.

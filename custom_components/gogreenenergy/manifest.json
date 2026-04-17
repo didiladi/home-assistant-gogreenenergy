@@ -2,8 +2,8 @@
   "domain": "gogreenenergy",
   "name": "GoGreenEnergy Price Sensor",
   "version": "0.1.0",
-  "documentation": "https://github.com/didiladi/gogreenenergy_integration",
-  "issue_tracker": "https://github.com/didiladi/gogreenenergy_integration/issues",
+  "documentation": "https://github.com/didiladi/home-assistant-gogreenenergy",
+  "issue_tracker": "https://github.com/didiladi/home-assistant-gogreenenergy/issues",
   "requirements": [
     "aiohttp",
     "beautifulsoup4"
